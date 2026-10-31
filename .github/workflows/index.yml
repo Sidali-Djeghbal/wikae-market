@@ -1,0 +1,37 @@
+name: Rebuild market index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'entries/**'
+      - 'covers/**'
+      - 'media/**'
+  pull_request:
+    paths:
+      - 'entries/**'
+      - 'covers/**'
+      - 'media/**'
+  workflow_dispatch:
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install etude CLI
+        run: npm install -g @zibhelina/etude
+      - name: Rebuild index
+        run: etude market index .
+      - name: Commit index
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Rebuild Islamic market index"
+          file_pattern: "index.json"
+

@@ -1,0 +1,194 @@
+{
+  "etude": "market/1",
+  "generated": "2026-10-31T11:56:53.913Z",
+  "repo": "Sidali-Djeghbal/etude-market",
+  "entries": [
+    {
+      "id": "nawawi-forty",
+      "kind": "deck",
+      "name": "الأربعون النووية (The 40 Nawawi Hadiths)",
+      "description": "الأحاديث الأربعون النووية للإمام محيي الدين يحيى بن شرف النووي رحمه الله كاملة، مع بيان راوي الحديث وفوائده وتخريجه في الصحيحين.",
+      "author": "Sidali Djeghbal",
+      "tags": [
+        "hadith",
+        "sunnah",
+        "nawawi",
+        "islamic",
+        "arabic"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-31",
+      "path": "entries/decks/nawawi-forty.json",
+      "bytes": 7835,
+      "summary": {
+        "decks": [
+          "الحديث الشريف::الأربعون النووية"
+        ],
+        "items": 5,
+        "cardTypes": {
+          "basic": 5
+        },
+        "types": [],
+        "watch": false,
+        "samples": [
+          "الحديث الأول من الأربعين النووية عن أمير المؤمنين أبي حفص عمر بن الخطاب رضي الله عنه قال: ",
+          "الحديث الثاني: حديث جبريل عليه السلام عن عمر رضي الله عنه قال: بينما نحن جلوس عند رسول الل",
+          "الحديث الثالث: أركان الإسلام عن أبي عبد الرحمن عبد الله بن عمر بن الخطاب رضي الله عنهما قا"
+        ]
+      }
+    },
+    {
+      "id": "quran-mutashabihat",
+      "kind": "type",
+      "name": "متشابهات القرآن (Quran Mutashabihat)",
+      "description": "بطاقات متخصصة لحفاظ القرآن الكريم لضبط الآيات المتشابهة بالرسم العثماني المصحفي مع إبراز اللفظ المفصلي وقواعد الضبط البلاغي والسياقي. تدعم إكمال الفراغ وتحديد السورة.",
+      "author": "Sidali Djeghbal",
+      "tags": [
+        "quran",
+        "mutashabihat",
+        "hifz",
+        "islamic",
+        "arabic"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-31",
+      "path": "entries/types/quran-mutashabihat.json",
+      "bytes": 53874,
+      "summary": {
+        "types": [
+          {
+            "id": "quran-mutashabihat",
+            "name": "Quranic Mutashabihat",
+            "description": "Complete a verse's pivotal wording and tell similar verses apart. Built for Quran memorizers.",
+            "grader": "script",
+            "fields": [
+              "titleAr",
+              "targetVerseId",
+              "mode",
+              "siblings",
+              "extraDistractorsUthmani",
+              "mnemonicRuleAr",
+              "hintAr",
+              "inputSubmode"
+            ]
+          }
+        ],
+        "items": 1,
+        "samples": [
+          "البقرة:126 ↔ إبراهيم:35 · بَلَدًا ءَامِنًا / ٱلْبَلَدَ ءَامِنًا"
+        ]
+      }
+    },
+    {
+      "id": "quran-mutashabihat-baqarah",
+      "kind": "deck",
+      "name": "متشابهات سورة البقرة (Al-Baqarah Mutashabihat)",
+      "description": "حزمة شاملة ومحققة لمتشابهات سورة البقرة مع غيرها من السور بالرسم العثماني، مستندة إلى أمهات كتب المتشابهات (هداية المرتاب، درة التنزيل، وملاك التأويل).",
+      "author": "Sidali Djeghbal",
+      "tags": [
+        "quran",
+        "baqarah",
+        "mutashabihat",
+        "hifz",
+        "islamic"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-31",
+      "path": "entries/decks/quran-mutashabihat-baqarah.json",
+      "bytes": 63668,
+      "summary": {
+        "decks": [
+          "متشابهات القرآن الكريم::سورة البقرة"
+        ],
+        "items": 6,
+        "cardTypes": {
+          "quran-mutashabihat": 6
+        },
+        "types": [
+          {
+            "id": "quran-mutashabihat",
+            "name": "Quranic Mutashabihat"
+          }
+        ],
+        "watch": false,
+        "samples": [
+          "البقرة:126 ↔ إبراهيم:35 (بلداً آمناً / البلد آمناً)",
+          "البقرة:38 ↔ البقرة:62 (فلا خوف عليهم / ولا خوف عليهم)",
+          "البقرة:48 ↔ البقرة:123 (تقديم الشفاعة أم العدل)"
+        ]
+      }
+    },
+    {
+      "id": "islamic-mushaf",
+      "kind": "theme",
+      "name": "مصحف المدينة (Madinah Mushaf)",
+      "description": "سمة هادئة ومريحة لعين القارئ والحافظ مستوحاة من ألوان مصحف المدينة المنورة، بخلفية عاجية دافئة وألوان حبرية خضراء مذهبة.",
+      "author": "Sidali Djeghbal",
+      "tags": [
+        "islamic",
+        "mushaf",
+        "paper",
+        "arabic",
+        "light"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-31",
+      "path": "entries/themes/islamic-mushaf.json",
+      "bytes": 2703,
+      "summary": {
+        "theme": {
+          "id": "islamic-mushaf",
+          "name": "مصحف المدينة",
+          "scheme": "light",
+          "vars": {
+            "--background": "oklch(0.97 0.015 85)",
+            "--foreground": "oklch(0.22 0.018 60)",
+            "--card": "oklch(0.99 0.008 85)",
+            "--popover": "oklch(0.98 0.01 85)",
+            "--primary": "oklch(0.42 0.1 155)",
+            "--primary-foreground": "oklch(0.98 0.005 85)",
+            "--secondary": "oklch(0.93 0.02 85)",
+            "--muted": "oklch(0.92 0.018 85)",
+            "--muted-foreground": "oklch(0.48 0.02 60)",
+            "--accent": "oklch(0.91 0.025 85)",
+            "--destructive": "oklch(0.6 0.18 25)",
+            "--border": "oklch(0.86 0.022 85)",
+            "--input": "oklch(0.84 0.025 85)",
+            "--ring": "oklch(0.45 0.09 155)",
+            "--chart-1": "oklch(0.62 0.2 355)",
+            "--chart-2": "oklch(0.58 0.14 250)",
+            "--chart-3": "oklch(0.7 0.15 75)",
+            "--chart-4": "oklch(0.6 0.15 150)",
+            "--chart-5": "oklch(0.65 0 0)",
+            "--sidebar": "oklch(0.95 0.016 85)",
+            "--sidebar-accent": "oklch(0.9 0.022 85)",
+            "--sidebar-border": "oklch(0.85 0.022 85)",
+            "--highlight": "oklch(0.68 0.14 85)",
+            "--success": "oklch(0.65 0.15 150)",
+            "--warning": "oklch(0.75 0.14 85)",
+            "--danger": "oklch(0.6 0.18 25)",
+            "--again": "oklch(0.6 0.18 25)",
+            "--hard": "oklch(0.72 0.13 75)",
+            "--good": "oklch(0.65 0.14 150)",
+            "--easy": "oklch(0.6 0.12 210)",
+            "--new": "oklch(0.55 0.12 220)",
+            "--learn": "oklch(0.62 0.15 45)",
+            "--review": "oklch(0.65 0.14 150)",
+            "--card-foreground": "oklch(0.18 0 0)",
+            "--popover-foreground": "oklch(0.18 0 0)",
+            "--secondary-foreground": "oklch(0.18 0 0)",
+            "--accent-foreground": "oklch(0.18 0 0)",
+            "--sidebar-foreground": "oklch(0.18 0 0)",
+            "--sidebar-primary": "oklch(0.2 0 0)",
+            "--sidebar-primary-foreground": "oklch(0.985 0 0)",
+            "--sidebar-accent-foreground": "oklch(0.18 0 0)",
+            "--sidebar-ring": "oklch(0.55 0 0)",
+            "--radius": "0.75rem",
+            "--font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+            "--font-mono": "\"JetBrains Mono\", ui-monospace, \"SFMono-Regular\", monospace"
+          }
+        }
+      }
+    }
+  ]
+}

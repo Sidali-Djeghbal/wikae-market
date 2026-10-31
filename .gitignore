@@ -1,0 +1,7 @@
+# Local backups and editor artifacts
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+node_modules/
