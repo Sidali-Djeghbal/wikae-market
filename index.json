@@ -1,6 +1,6 @@
 {
  "etude": "market/1",
- "generated": "2026-11-01T12:55:28.074Z",
+ "generated": "2026-11-01T13:27:40.983Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
   {
@@ -54,7 +54,7 @@
    "version": "1.0.0",
    "updated": "2026-11-01",
    "path": "entries/themes/islamic-dark.json",
-   "bytes": 2846,
+   "bytes": 2847,
    "summary": {
     "theme": {
      "id": "islamic-dark",
@@ -127,7 +127,7 @@
    "version": "1.0.0",
    "updated": "2026-11-01",
    "path": "entries/decks/matn-al-jazariyyah.json",
-   "bytes": 104278,
+   "bytes": 104268,
    "summary": {
     "decks": [
      "التجويد::المقدمة الجزرية"
@@ -198,7 +198,7 @@
    "version": "1.0.0",
    "updated": "2026-11-01",
    "path": "entries/decks/matn-tuhfat-al-atfal.json",
-   "bytes": 68191,
+   "bytes": 68175,
    "summary": {
     "decks": [
      "التجويد::تحفة الأطفال"
