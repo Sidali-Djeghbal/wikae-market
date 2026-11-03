@@ -1,8 +1,84 @@
 {
  "etude": "market/1",
- "generated": "2026-11-01T13:27:40.983Z",
+ "generated": "2026-11-03T19:46:10.900Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
+  {
+   "id": "matn-al-jazariyyah",
+   "kind": "deck",
+   "name": "المقدمة الجزرية (Al-Muqaddimah Al-Jazariyyah)",
+   "description": "منظومة المقدمة فيما يجب على قارئ القرآن أن يعلمه للإمام محمد بن الجزري الشافعي رحمه الله كاملة ومحققة، مضبوطة بالشكل التام ومقسمة وفق الأبواب التجويدية مع بطاقات التسميع وملء الفراغات والوصل التفاعلي وترتيب المخارج والصفات.",
+   "author": "Sidali Djeghbal",
+   "tags": [
+    "tajweed",
+    "quran",
+    "matn",
+    "jazariyyah",
+    "ibn-al-jazari",
+    "islamic"
+   ],
+   "version": "1.1.0",
+   "updated": "2026-11-03",
+   "path": "entries/decks/matn-al-jazariyyah.json",
+   "bytes": 114005,
+   "summary": {
+    "decks": [
+     "التجويد::المقدمة الجزرية"
+    ],
+    "items": 135,
+    "cardTypes": {
+     "basic": 109,
+     "cloze": 19,
+     "order": 4,
+     "match": 3
+    },
+    "types": [],
+    "watch": false,
+    "samples": [
+     "المقدمة الجزرية · الْمُقَدِّمَةُ البيت رقم (1): اذكر نص البيت كاملاً مع ضبطه بالشكل.",
+     "المقدمة الجزرية · الْمُقَدِّمَةُ البيت رقم (2): اذكر نص البيت كاملاً مع ضبطه بالشكل.",
+     "المقدمة الجزرية · الْمُقَدِّمَةُ البيت رقم (3): اذكر نص البيت كاملاً مع ضبطه بالشكل."
+    ]
+   }
+  },
+  {
+   "id": "matn-tuhfat-al-atfal",
+   "kind": "deck",
+   "name": "متن تحفة الأطفال (Tuhfat Al-Atfal)",
+   "description": "منظومة تحفة الأطفال والغلمان في تجويد القرآن للعلامة سليمان الجمزوري رحمه الله كاملة (61 بيتاً)، مضبوطة بالشكل التام ومقسمة وفق الأبواب التعليمية مع بطاقات التسميع وملء الفراغات والوصل التفاعلي وترتيب الأبيات.",
+   "author": "Sidali Djeghbal",
+   "tags": [
+    "tajweed",
+    "quran",
+    "matn",
+    "tuhfah",
+    "jamzouri",
+    "islamic"
+   ],
+   "version": "1.1.0",
+   "updated": "2026-11-03",
+   "path": "entries/decks/matn-tuhfat-al-atfal.json",
+   "bytes": 78050,
+   "summary": {
+    "decks": [
+     "التجويد::تحفة الأطفال"
+    ],
+    "items": 93,
+    "cardTypes": {
+     "order": 6,
+     "basic": 61,
+     "cloze": 23,
+     "match": 3
+    },
+    "types": [],
+    "watch": false,
+    "samples": [
+     "الْمُقَدِّمَةُ رتب الأبيات التالية وفق تسلسلها في المنظومة:",
+     "تحفة الأطفال · الْمُقَدِّمَةُ البيت رقم (1): اذكر نص البيت كاملاً مع ضبطه بالشكل.",
+     "تحفة الأطفال · الْمُقَدِّمَةُ البيت رقم (2): اذكر نص البيت كاملاً مع ضبطه بالشكل."
+    ]
+   }
+  },
   {
    "id": "nawawi-forty",
    "kind": "deck",
@@ -19,14 +95,16 @@
    "version": "2.0.0",
    "updated": "2026-11-01",
    "path": "entries/decks/nawawi-forty.json",
-   "bytes": 79599,
+   "bytes": 98195,
    "summary": {
     "decks": [
      "الحديث الشريف::الأربعون النووية"
     ],
-    "items": 42,
+    "items": 65,
     "cardTypes": {
-     "basic": 42
+     "basic": 42,
+     "cloze": 19,
+     "order": 4
     },
     "types": [],
     "watch": false,
@@ -111,43 +189,6 @@
    }
   },
   {
-   "id": "matn-al-jazariyyah",
-   "kind": "deck",
-   "name": "المقدمة الجزرية (Al-Muqaddimah Al-Jazariyyah)",
-   "description": "منظومة المقدمة فيما يجب على قارئ القرآن أن يعلمه للإمام محمد بن الجزري الشافعي رحمه الله كاملة ومحققة، مضبوطة بالشكل التام ومقسمة وفق الأبواب التجويدية مع بطاقات التسميع وملء الفراغات وترتيب المخارج والصفات.",
-   "author": "Sidali Djeghbal",
-   "tags": [
-    "tajweed",
-    "quran",
-    "matn",
-    "jazariyyah",
-    "ibn-al-jazari",
-    "islamic"
-   ],
-   "version": "1.0.0",
-   "updated": "2026-11-01",
-   "path": "entries/decks/matn-al-jazariyyah.json",
-   "bytes": 104268,
-   "summary": {
-    "decks": [
-     "التجويد::المقدمة الجزرية"
-    ],
-    "items": 126,
-    "cardTypes": {
-     "basic": 109,
-     "cloze": 13,
-     "order": 4
-    },
-    "types": [],
-    "watch": false,
-    "samples": [
-     "المقدمة الجزرية · الْمُقَدِّمَةُ البيت رقم (1): اذكر نص البيت كاملاً مع ضبطه بالشكل.",
-     "المقدمة الجزرية · الْمُقَدِّمَةُ البيت رقم (2): اذكر نص البيت كاملاً مع ضبطه بالشكل.",
-     "المقدمة الجزرية · الْمُقَدِّمَةُ البيت رقم (3): اذكر نص البيت كاملاً مع ضبطه بالشكل."
-    ]
-   }
-  },
-  {
    "id": "quran-mutashabihat-baqarah",
    "kind": "deck",
    "name": "متشابهات سورة البقرة (Al-Baqarah Mutashabihat)",
@@ -182,43 +223,6 @@
    }
   },
   {
-   "id": "matn-tuhfat-al-atfal",
-   "kind": "deck",
-   "name": "متن تحفة الأطفال (Tuhfat Al-Atfal)",
-   "description": "منظومة تحفة الأطفال والغلمان في تجويد القرآن للعلامة سليمان الجمزوري رحمه الله كاملة (61 بيتاً)، مضبوطة بالشكل التام ومقسمة وفق الأبواب التعليمية مع بطاقات التسميع وملء الفراغات وترتيب الأبيات.",
-   "author": "Sidali Djeghbal",
-   "tags": [
-    "tajweed",
-    "quran",
-    "matn",
-    "tuhfah",
-    "jamzouri",
-    "islamic"
-   ],
-   "version": "1.0.0",
-   "updated": "2026-11-01",
-   "path": "entries/decks/matn-tuhfat-al-atfal.json",
-   "bytes": 68175,
-   "summary": {
-    "decks": [
-     "التجويد::تحفة الأطفال"
-    ],
-    "items": 83,
-    "cardTypes": {
-     "order": 6,
-     "basic": 61,
-     "cloze": 16
-    },
-    "types": [],
-    "watch": false,
-    "samples": [
-     "الْمُقَدِّمَةُ رتب الأبيات التالية وفق تسلسلها في المنظومة:",
-     "تحفة الأطفال · الْمُقَدِّمَةُ البيت رقم (1): اذكر نص البيت كاملاً مع ضبطه بالشكل.",
-     "تحفة الأطفال · الْمُقَدِّمَةُ البيت رقم (2): اذكر نص البيت كاملاً مع ضبطه بالشكل."
-    ]
-   }
-  },
-  {
    "id": "quran-mutashabihat",
    "kind": "type",
    "name": "متشابهات القرآن (Quran Mutashabihat)",
@@ -234,7 +238,7 @@
    "version": "1.0.0",
    "updated": "2026-10-31",
    "path": "entries/types/quran-mutashabihat.json",
-   "bytes": 53874,
+   "bytes": 53096,
    "summary": {
     "types": [
      {
@@ -276,7 +280,7 @@
    "version": "1.0.0",
    "updated": "2026-10-31",
    "path": "entries/themes/islamic-mushaf.json",
-   "bytes": 2703,
+   "bytes": 2725,
    "summary": {
     "theme": {
      "id": "islamic-mushaf",
@@ -326,7 +330,7 @@
       "--sidebar-accent-foreground": "oklch(0.18 0 0)",
       "--sidebar-ring": "oklch(0.55 0 0)",
       "--radius": "0.75rem",
-      "--font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+      "--font-sans": "\"Cairo\", \"Amiri\", \"Inter\", ui-sans-serif, system-ui, sans-serif",
       "--font-mono": "\"JetBrains Mono\", ui-monospace, \"SFMono-Regular\", monospace"
      }
     }
