@@ -1,6 +1,6 @@
 {
  "etude": "market/1",
- "generated": "2026-11-03T19:46:10.900Z",
+ "generated": "2026-11-03T20:40:03.123Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
   {
@@ -21,6 +21,7 @@
    "updated": "2026-11-03",
    "path": "entries/decks/matn-al-jazariyyah.json",
    "bytes": 114005,
+   "cover": "covers/decks/matn-al-jazariyyah.webp",
    "summary": {
     "decks": [
      "التجويد::المقدمة الجزرية"
@@ -59,6 +60,7 @@
    "updated": "2026-11-03",
    "path": "entries/decks/matn-tuhfat-al-atfal.json",
    "bytes": 78050,
+   "cover": "covers/decks/matn-tuhfat-al-atfal.webp",
    "summary": {
     "decks": [
      "التجويد::تحفة الأطفال"
@@ -96,6 +98,7 @@
    "updated": "2026-11-01",
    "path": "entries/decks/nawawi-forty.json",
    "bytes": 98195,
+   "cover": "covers/decks/nawawi-forty.webp",
    "summary": {
     "decks": [
      "الحديث الشريف::الأربعون النووية"
@@ -205,6 +208,7 @@
    "updated": "2026-11-01",
    "path": "entries/decks/quran-mutashabihat-baqarah.json",
    "bytes": 41244,
+   "cover": "covers/decks/quran-mutashabihat-baqarah.webp",
    "summary": {
     "decks": [
      "متشابهات القرآن الكريم::سورة البقرة"
