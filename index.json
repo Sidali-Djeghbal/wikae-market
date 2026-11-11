@@ -1,6 +1,6 @@
 {
  "etude": "market/1",
- "generated": "2026-11-03T20:40:03.123Z",
+ "generated": "2026-11-11T19:47:03.956Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
   {
@@ -21,6 +21,7 @@
    "updated": "2026-11-03",
    "path": "entries/decks/matn-al-jazariyyah.json",
    "bytes": 114005,
+   "sha256": "b17e84e889f3be40327731b83e381b95f27f3b3b0a2636339b01eb7cd3129b29",
    "cover": "covers/decks/matn-al-jazariyyah.webp",
    "summary": {
     "decks": [
@@ -60,6 +61,7 @@
    "updated": "2026-11-03",
    "path": "entries/decks/matn-tuhfat-al-atfal.json",
    "bytes": 78050,
+   "sha256": "b2ac095c4ebd4c000e7c0d72854c280512271174e5f3feb71ec33faf0e41bc29",
    "cover": "covers/decks/matn-tuhfat-al-atfal.webp",
    "summary": {
     "decks": [
@@ -98,6 +100,7 @@
    "updated": "2026-11-01",
    "path": "entries/decks/nawawi-forty.json",
    "bytes": 98195,
+   "sha256": "45243364c153eda046971e3794a760017aa60a30ac230c4f4974c0d0d23d162e",
    "cover": "covers/decks/nawawi-forty.webp",
    "summary": {
     "decks": [
@@ -136,6 +139,7 @@
    "updated": "2026-11-01",
    "path": "entries/themes/islamic-dark.json",
    "bytes": 2847,
+   "sha256": "48ee80d3dcf8eb0a8f7501c16c8b0b7c7e4d5b49c8aa706881d705b278fda719",
    "summary": {
     "theme": {
      "id": "islamic-dark",
@@ -208,6 +212,7 @@
    "updated": "2026-11-01",
    "path": "entries/decks/quran-mutashabihat-baqarah.json",
    "bytes": 41244,
+   "sha256": "36e46fe7d3e5d77708e63fa5bd0a64738eb378945d3f11c13fbde30c550141e6",
    "cover": "covers/decks/quran-mutashabihat-baqarah.webp",
    "summary": {
     "decks": [
@@ -243,6 +248,7 @@
    "updated": "2026-10-31",
    "path": "entries/types/quran-mutashabihat.json",
    "bytes": 53096,
+   "sha256": "e76cdd853aaee927c2fa0e2cbe0f08d519425498e5569a0e7e725a566b46b87e",
    "summary": {
     "types": [
      {
@@ -285,6 +291,7 @@
    "updated": "2026-10-31",
    "path": "entries/themes/islamic-mushaf.json",
    "bytes": 2725,
+   "sha256": "bc158762cadf08514c8c995c558c8fe776b669659ed181950b3b15cc777e84d9",
    "summary": {
     "theme": {
      "id": "islamic-mushaf",
