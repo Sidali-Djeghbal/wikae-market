@@ -23,9 +23,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
       - name: Install etude CLI
-        run: npm install -g @zibhelina/etude
+        run: npm install -g github:Sidali-Djeghbal/wikae#main
       - name: Rebuild index
         run: etude market index .
       - name: Commit index
