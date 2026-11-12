@@ -1,8 +1,147 @@
 {
  "etude": "market/1",
- "generated": "2026-11-11T19:47:03.956Z",
+ "generated": "2026-11-11T20:37:12.877Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
+  {
+   "id": "showcase",
+   "kind": "deck",
+   "name": "جولة وِكَاء (Etude Showcase)",
+   "description": "جولة تفاعلية في وِكَاء: بطاقة واحدة لكل نمط من أنماط البطاقات، من القلب والحساب والترتيب إلى الشطرنج والمورس والكانجي وكتابة اللون. تُفتح في وضع المشاهدة، فترى مثالاً محلولاً لكل نمط دون أن تُجدول أي مراجعة. ابدأ بها لتتعرف على المنصة في خمس دقائق.",
+   "author": "Sidali Djeghbal",
+   "tags": [
+    "showcase",
+    "tour",
+    "starter",
+    "demo",
+    "arabic"
+   ],
+   "version": "1.0.0",
+   "updated": "2026-11-11",
+   "path": "entries/decks/showcase.json",
+   "bytes": 528051,
+   "sha256": "01977ffcc78a0100d06e8a7db59fd05378c19ebfffcaa7aed5bf5d4c7e318e7d",
+   "cover": "covers/decks/showcase.webp",
+   "media": [
+    "media/decks/showcase/01-title.webp",
+    "media/decks/showcase/02-samples.webp"
+   ],
+   "summary": {
+    "decks": [
+     "Etude Showcase",
+     "Etude Showcase::1 Recall",
+     "Etude Showcase::2 Calculate",
+     "Etude Showcase::3 Arrange",
+     "Etude Showcase::4 Code",
+     "Etude Showcase::5 Play and listen",
+     "Etude Showcase::6 Draw and write"
+    ],
+    "items": 29,
+    "cardTypes": {
+     "basic": 1,
+     "typed": 1,
+     "mcq": 1,
+     "cloze": 1,
+     "match": 1,
+     "occlusion": 1,
+     "quran-mutashabihat": 1,
+     "numeric": 1,
+     "math": 1,
+     "estimate": 1,
+     "balance": 1,
+     "unit-circle": 1,
+     "plot": 1,
+     "order": 1,
+     "timeline": 1,
+     "graph-walk": 1,
+     "code": 1,
+     "regex": 1,
+     "bug-hunt": 1,
+     "bits": 1,
+     "chess": 1,
+     "chord": 1,
+     "staff": 1,
+     "interval": 1,
+     "color": 1,
+     "sprint": 1,
+     "typing": 1,
+     "free": 1,
+     "draw": 1
+    },
+    "types": [
+     {
+      "id": "balance",
+      "name": "Balance the equation"
+     },
+     {
+      "id": "bits",
+      "name": "Flip the bits"
+     },
+     {
+      "id": "bug-hunt",
+      "name": "Find the bug"
+     },
+     {
+      "id": "chess",
+      "name": "Mate in one"
+     },
+     {
+      "id": "chord",
+      "name": "Build the chord"
+     },
+     {
+      "id": "color",
+      "name": "Make this color"
+     },
+     {
+      "id": "estimate",
+      "name": "Estimate it"
+     },
+     {
+      "id": "graph-walk",
+      "name": "Visit the nodes"
+     },
+     {
+      "id": "interval",
+      "name": "Name the interval"
+     },
+     {
+      "id": "plot",
+      "name": "Mark the points"
+     },
+     {
+      "id": "regex",
+      "name": "Write the regex"
+     },
+     {
+      "id": "sprint",
+      "name": "Beat the clock"
+     },
+     {
+      "id": "staff",
+      "name": "Read the note"
+     },
+     {
+      "id": "timeline",
+      "name": "Place it in time"
+     },
+     {
+      "id": "typing",
+      "name": "Type fast"
+     },
+     {
+      "id": "unit-circle",
+      "name": "Unit circle"
+     }
+    ],
+    "watch": true,
+    "samples": [
+     "Why is the sky blue?",
+     "What is the capital of Australia?",
+     "Which planet has the shortest day, one full turn on its axis?"
+    ]
+   }
+  },
   {
    "id": "matn-al-jazariyyah",
    "kind": "deck",
@@ -23,6 +162,10 @@
    "bytes": 114005,
    "sha256": "b17e84e889f3be40327731b83e381b95f27f3b3b0a2636339b01eb7cd3129b29",
    "cover": "covers/decks/matn-al-jazariyyah.webp",
+   "media": [
+    "media/decks/matn-al-jazariyyah/01-title.webp",
+    "media/decks/matn-al-jazariyyah/02-samples.webp"
+   ],
    "summary": {
     "decks": [
      "التجويد::المقدمة الجزرية"
@@ -63,6 +206,10 @@
    "bytes": 78050,
    "sha256": "b2ac095c4ebd4c000e7c0d72854c280512271174e5f3feb71ec33faf0e41bc29",
    "cover": "covers/decks/matn-tuhfat-al-atfal.webp",
+   "media": [
+    "media/decks/matn-tuhfat-al-atfal/01-title.webp",
+    "media/decks/matn-tuhfat-al-atfal/02-samples.webp"
+   ],
    "summary": {
     "decks": [
      "التجويد::تحفة الأطفال"
@@ -102,6 +249,10 @@
    "bytes": 98195,
    "sha256": "45243364c153eda046971e3794a760017aa60a30ac230c4f4974c0d0d23d162e",
    "cover": "covers/decks/nawawi-forty.webp",
+   "media": [
+    "media/decks/nawawi-forty/01-title.webp",
+    "media/decks/nawawi-forty/02-samples.webp"
+   ],
    "summary": {
     "decks": [
      "الحديث الشريف::الأربعون النووية"
@@ -140,6 +291,10 @@
    "path": "entries/themes/islamic-dark.json",
    "bytes": 2847,
    "sha256": "48ee80d3dcf8eb0a8f7501c16c8b0b7c7e4d5b49c8aa706881d705b278fda719",
+   "media": [
+    "media/themes/islamic-dark/01-title.webp",
+    "media/themes/islamic-dark/02-samples.webp"
+   ],
    "summary": {
     "theme": {
      "id": "islamic-dark",
@@ -214,6 +369,10 @@
    "bytes": 41244,
    "sha256": "36e46fe7d3e5d77708e63fa5bd0a64738eb378945d3f11c13fbde30c550141e6",
    "cover": "covers/decks/quran-mutashabihat-baqarah.webp",
+   "media": [
+    "media/decks/quran-mutashabihat-baqarah/01-title.webp",
+    "media/decks/quran-mutashabihat-baqarah/02-samples.webp"
+   ],
    "summary": {
     "decks": [
      "متشابهات القرآن الكريم::سورة البقرة"
@@ -249,6 +408,11 @@
    "path": "entries/types/quran-mutashabihat.json",
    "bytes": 53096,
    "sha256": "e76cdd853aaee927c2fa0e2cbe0f08d519425498e5569a0e7e725a566b46b87e",
+   "cover": "covers/types/quran-mutashabihat.webp",
+   "media": [
+    "media/types/quran-mutashabihat/01-title.webp",
+    "media/types/quran-mutashabihat/02-samples.webp"
+   ],
    "summary": {
     "types": [
      {
@@ -292,6 +456,10 @@
    "path": "entries/themes/islamic-mushaf.json",
    "bytes": 2725,
    "sha256": "bc158762cadf08514c8c995c558c8fe776b669659ed181950b3b15cc777e84d9",
+   "media": [
+    "media/themes/islamic-mushaf/01-title.webp",
+    "media/themes/islamic-mushaf/02-samples.webp"
+   ],
    "summary": {
     "theme": {
      "id": "islamic-mushaf",
