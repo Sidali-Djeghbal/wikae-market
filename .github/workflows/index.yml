@@ -12,26 +12,36 @@ on:
       - 'entries/**'
       - 'covers/**'
       - 'media/**'
+      - 'index.json'
+      - 'scripts/check-index.mjs'
+      - '.github/workflows/index.yml'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   index:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Install etude CLI
-        run: npm install -g github:Sidali-Djeghbal/wikae#main
+      - name: Install Wikae CLI
+        run: npm install -g --no-audit --no-fund "github:Sidali-Djeghbal/wikae#54df2c921ab8b0d06e5499b8e59767cfa5ea74bd" # v2.9.0
+      - name: Check entries and index
+        if: github.event_name == 'pull_request'
+        run: |
+          "$(npm prefix -g)/bin/wikae" market index .
+          node scripts/check-index.mjs HEAD
       - name: Rebuild index
-        run: etude market index .
+        if: github.event_name != 'pull_request'
+        run: |
+          "$(npm prefix -g)/bin/wikae" market index .
       - name: Commit index
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Rebuild Islamic market index"
+          commit_message: "chore: rebuild market index"
           file_pattern: "index.json"
-
