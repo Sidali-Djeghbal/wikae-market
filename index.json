@@ -1,12 +1,12 @@
 {
  "etude": "market/1",
- "generated": "2026-11-11T20:37:12.877Z",
+ "generated": "2026-11-23T16:33:40.426Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
   {
    "id": "showcase",
    "kind": "deck",
-   "name": "جولة وِكَاء (Etude Showcase)",
+   "name": "جولة وِكَاء (Wikae Showcase)",
    "description": "جولة تفاعلية في وِكَاء: بطاقة واحدة لكل نمط من أنماط البطاقات، من القلب والحساب والترتيب إلى الشطرنج والمورس والكانجي وكتابة اللون. تُفتح في وضع المشاهدة، فترى مثالاً محلولاً لكل نمط دون أن تُجدول أي مراجعة. ابدأ بها لتتعرف على المنصة في خمس دقائق.",
    "author": "Sidali Djeghbal",
    "tags": [
@@ -20,7 +20,7 @@
    "updated": "2026-11-11",
    "path": "entries/decks/showcase.json",
    "bytes": 528051,
-   "sha256": "01977ffcc78a0100d06e8a7db59fd05378c19ebfffcaa7aed5bf5d4c7e318e7d",
+   "sha256": "fbbd8f6c888bc3b0215fc687c5962e75708e6a2474fe6bd5841a6a6e8807b74b",
    "cover": "covers/decks/showcase.webp",
    "media": [
     "media/decks/showcase/01-title.webp",
