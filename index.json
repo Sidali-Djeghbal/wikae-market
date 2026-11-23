@@ -1,6 +1,6 @@
 {
  "etude": "market/1",
- "generated": "2026-11-23T16:40:36.607Z",
+ "generated": "2026-11-23T16:40:56.517Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
   {
@@ -291,6 +291,7 @@
    "path": "entries/themes/islamic-dark.json",
    "bytes": 2847,
    "sha256": "48ee80d3dcf8eb0a8f7501c16c8b0b7c7e4d5b49c8aa706881d705b278fda719",
+   "cover": "covers/themes/islamic-dark.webp",
    "media": [
     "media/themes/islamic-dark/01-title.webp",
     "media/themes/islamic-dark/02-samples.webp"
@@ -456,6 +457,7 @@
    "path": "entries/themes/islamic-mushaf.json",
    "bytes": 2725,
    "sha256": "bc158762cadf08514c8c995c558c8fe776b669659ed181950b3b15cc777e84d9",
+   "cover": "covers/themes/islamic-mushaf.webp",
    "media": [
     "media/themes/islamic-mushaf/01-title.webp",
     "media/themes/islamic-mushaf/02-samples.webp"
