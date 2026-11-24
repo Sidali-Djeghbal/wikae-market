@@ -1,13 +1,13 @@
 {
  "etude": "market/1",
- "generated": "2026-11-24T19:35:47.696Z",
+ "generated": "2026-11-24T20:33:59.576Z",
  "repo": "Sidali-Djeghbal/wikae-market",
  "entries": [
   {
    "id": "quran-tajweed-audio",
    "kind": "deck",
    "name": "التجويد السمعي التطبيقي",
-   "description": "٨٠ مقطعاً قرآنياً قصيراً ومتقناً بأصوات كبار القراء (الحصري، المنشاوي، عبد الباسط، والعفاسي) لتدريب الأذن على أحكام التجويد، ومقادير المد (٢ و٤–٥ و٦ حركات)، والقلقلة والتفخيم والسكت، مع تنزيل تدريجي خفيف (١٦ مقطعاً في كل مرحلة) يعمل بالكامل دون اتصال.",
+   "description": "٨٠ مقطعاً قرآنياً قصيراً ومتقناً بأصوات كبار القراء (الحصري، المنشاوي، عبد الباسط، والعفاسي) بترتيب عشوائي متجدد لتدريب الأذن على أحكام التجويد، ومقادير المد (٢ و٤–٥ و٦ حركات)، والقلقلة والتفخيم والسكت، مع تنزيل تدريجي خفيف (١٦ مقطعاً في كل مرحلة) يعمل بالكامل دون اتصال.",
    "author": "Wikae Community",
    "tags": [
     "القرآن",
@@ -18,11 +18,11 @@
     "quran",
     "audio"
    ],
-   "version": "1.0.0",
+   "version": "1.0.1",
    "updated": "2026-11-24",
    "path": "entries/decks/quran-tajweed-audio.json",
-   "bytes": 231418,
-   "sha256": "eb67f6aad4e88ba305d85feb991d61c6ff3080b475a697cb2b71d49311c64333",
+   "bytes": 234252,
+   "sha256": "a461e3f1be5531428b41830750c1c29a183bd43e1bdf73b50970919b4b5bbf95",
    "cover": "covers/decks/quran-tajweed-audio.webp",
    "media": [
     "media/decks/quran-tajweed-audio/01-title.webp",
@@ -45,65 +45,8 @@
     "watch": false,
     "samples": [
      "استمع إلى التلاوة وحدد الحكم التجويدي في النون المشددة من كلمة «ٱلنَّاسِ»:",
-     "استمع جيداً: ما مقدار الغنة في النون المشددة من «مَلِكِ ٱلنَّاسِ»؟",
-     "استمع وحدد الحكم التجويدي في الميم المشددة من كلمة «فَأُمُّهُۥ»:"
-    ]
-   }
-  },
-  {
-   "id": "quran-tajweed",
-   "kind": "type",
-   "name": "التجويد السمعي التطبيقي",
-   "description": "نوع بطاقة صوتية تفاعلية لتعلّم أحكام التجويد ومقادير المد عبر مقاطع قرآنية قصيرة، مع موجات صوتية، وبطيء سمعي ٠٫٧٥×، وتلوين تجويدي عند الإجابة.",
-   "author": "Wikae Community",
-   "tags": [
-    "القرآن",
-    "التجويد",
-    "صوتيات",
-    "islamic",
-    "tajweed",
-    "audio"
-   ],
-   "version": "1.0.0",
-   "updated": "2026-11-24",
-   "path": "entries/types/quran-tajweed.json",
-   "bytes": 97666,
-   "sha256": "e329e421884a303df15c4699bf6571b84d6ab28d70a5f53f0940e7043b4c1e77",
-   "cover": "covers/types/quran-tajweed.webp",
-   "media": [
-    "media/types/quran-tajweed/01-title.webp",
-    "media/types/quran-tajweed/02-samples.webp"
-   ],
-   "summary": {
-    "types": [
-     {
-      "id": "quran-tajweed",
-      "name": "التجويد السمعي التطبيقي",
-      "description": "بطاقة تفاعلية للاستماع إلى مقاطع قرآنية قصيرة بأصوات أربعة من كبار القراء، وتحديد الحكم التجويدي أو مقدار المد أو التمييز السمعي.",
-      "grader": "script",
-      "fields": [
-       "audio",
-       "prompt",
-       "text",
-       "tajweedHtml",
-       "focus",
-       "rule",
-       "choices",
-       "harakat",
-       "detail",
-       "surah",
-       "reciter",
-       "chapter",
-       "mode",
-       "blindAudio",
-       "durationSec",
-       "peaks"
-      ]
-     }
-    ],
-    "items": 1,
-    "samples": [
-     "استمع إلى التلاوة وحدد الحكم التجويدي في النون المشددة من كلمة «ٱلنَّاسِ»:"
+     "ما حكم النون الساكنة في كلمة «وَٱنْحَرْ»؟",
+     "استمع إلى التلاوة: ما نوع ومقدار المد في «أَلْهَىٰكُمُ» و«ٱلتَّكَاثُرُ»؟"
     ]
    }
   },
